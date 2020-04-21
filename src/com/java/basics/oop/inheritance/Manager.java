@@ -16,8 +16,8 @@ public class Manager extends Employee {
     //Method Overriding
     //Similar method exist on the employee class. But the following method will execute.(Method Overriding)
     @Override
-    public void showInformations() {
-        super.showInformations();  // Getting from SuperClass (Employee) with "super."
+    public void showInformation() {
+        super.showInformation();  // Getting from SuperClass (Employee) with "super."
         System.out.println(getManagerLevel());
     }
     

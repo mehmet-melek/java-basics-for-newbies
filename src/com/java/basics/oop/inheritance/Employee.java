@@ -15,7 +15,7 @@ public class Employee {
         this.salary = salary;
     }
     
-    public void showInformations() {
+    public void showInformation() {
         System.out.println(getName());
         System.out.println(getSurName());
         System.out.println(getDepartment());

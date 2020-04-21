@@ -1,6 +1,6 @@
 package com.java.basics.oop.inheritance;
 
-// Manager **Is a** employee
+// Developer **Is a** employee
 // SubClass
 public class Developer extends Employee {
     
@@ -12,8 +12,8 @@ public class Developer extends Employee {
     }
     
     @Override
-    public void showInformations() {
-        super.showInformations();
+    public void showInformation() {
+        super.showInformation();
         System.out.println(getLang());
     }
     
