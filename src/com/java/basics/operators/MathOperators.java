@@ -34,22 +34,21 @@ Math Operator	Description
         
         //when use postfix: first sout value then perform addition
         System.out.println(intValue++);
-    
+        
         //when use prefix: first perform addition then sout
         System.out.println(++intValue);
-    
-    
-    
+        
+        
         System.out.println(intValue + 1);
         System.out.println(intValue + 1d);
-    
+        
         System.out.println(doubleValue * intValue);
         System.out.println((int) doubleValue * intValue);
-    
+        
         System.out.println(intValue / doubleValue);
         System.out.println(intValue / (int) doubleValue);
-    
-    
+        
+        
         System.out.println(intValue % (int) doubleValue);
         System.out.println(intValue % doubleValue);
         

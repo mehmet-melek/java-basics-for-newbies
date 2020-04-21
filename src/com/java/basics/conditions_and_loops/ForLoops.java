@@ -13,7 +13,6 @@ public class ForLoops {
         }
         
         
-        
         // Sample app
         Scanner scanner = new Scanner(System.in);
         System.out.println("Number = ?");

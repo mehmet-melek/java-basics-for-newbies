@@ -1,6 +1,7 @@
 package com.java.basics;
 
-import com.java.basics.oop.Encapsulation;
+import com.java.basics.oop.inheritance.Developer;
+import com.java.basics.oop.inheritance.Manager;
 
 public class Main {
     
@@ -14,9 +15,8 @@ public class Main {
         //WhileLoops whileLoops = new WhileLoops();
         //DoWhileLoops doWhileLoops = new  DoWhileLoops();
         //BreakAndContinue breakAndContinue = new BreakAndContinue();
-        //MethodOverloading methodOverloading = new MethodOverloading();
         //PrimeNumberFinding primeNumberFinding = new PrimeNumberFinding();
-        //Encapsulation encapsulation = new Encapsulation(); // car = reference, Car()=Object
+        
         
         
         //mathOperators.perform();
@@ -27,18 +27,40 @@ public class Main {
         //whileLoops.perform();
         //doWhileLoops.perform();
         //breakAndContinue.perform();
-        
-        /*methodOverloading.perform(1);
+        //primeNumberFinding.perform();
+    
+    
+        //Method Overloading
+        /*MethodOverloading methodOverloading = new MethodOverloading();
+        methodOverloading.perform(1);
         methodOverloading.perform(1,2,3);
         methodOverloading.perform("Sample String");*/
         
-        
-        //primeNumberFinding.perform();
     
-        /*encapsulation.setCarType("SUV");
+        //Encapsulation
+        /*Encapsulation encapsulation = new Encapsulation(); // car = reference, Car()=Object
+        encapsulation.setCarType("SUV");
         System.out.println(encapsulation.getCarType());
         encapsulation.setCarType("Sport");*/
+    
         
+        //Constructors
+        //Constructors constructors = new Constructors("suv",2019,180,"Red");
+        //Constructors constructors = new Constructors();
+        //Constructors constructors = new Constructors(2018,160);
+        /* System.out.println(constructors.getCarType());
+        System.out.println(constructors.getCarModelYear());
+        System.out.println(constructors.getCarHp());
+        System.out.println(constructors.getCarColor());*/
         
+        //Inheritance
+        /*Manager manager = new Manager("Mehmet","Melek","IT",123456,3);
+        manager.showInformations();
+        manager.getSalary();
+        Developer developer = new Developer("Mehmet","Melek","IT","Java", 123456);
+        developer.showInformations();
+        developer.getSalary();*/
+    
+    
     }
 }
