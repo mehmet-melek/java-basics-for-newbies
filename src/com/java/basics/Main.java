@@ -1,11 +1,6 @@
 package com.java.basics;
 
-import com.java.basics.oop.Polymorphism.Animal;
-import com.java.basics.oop.Polymorphism.Cat;
-import com.java.basics.oop.Polymorphism.Dog;
-import com.java.basics.oop.composition.*;
-import com.java.basics.oop.inheritance.Developer;
-import com.java.basics.oop.inheritance.Manager;
+import arrays.ArrayOperations;
 
 public class Main {
     
@@ -91,10 +86,13 @@ public class Main {
         Animal animal2 = new Cat("Cat");
         animal1.perform();
         animal2.perform();*/
+
         
-        
-        
-        
+        //Arrays
+        //ArrayOperations arrayOperations = new ArrayOperations();
+        //arrayOperations.createArray();
+        //arrayOperations.sortArray(arrayOperations.createArray());
+        //arrayOperations.arrayEquals();
         
         
         
