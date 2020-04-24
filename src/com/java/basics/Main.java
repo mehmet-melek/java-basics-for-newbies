@@ -1,6 +1,7 @@
 package com.java.basics;
 
 import arrays.ArrayOperations;
+import arrays.MultidimensionalArrays;
 
 public class Main {
     
@@ -93,8 +94,9 @@ public class Main {
         //arrayOperations.createArray();
         //arrayOperations.sortArray(arrayOperations.createArray());
         //arrayOperations.arrayEquals();
-        
-        
+    
+        //MultidimensionalArrays multidimensionalArrays = new MultidimensionalArrays();
+        //multidimensionalArrays.soutMultidimensionalArray("ss",multidimensionalArrays.createMultidimensionalArrays());
         
     }
 }
