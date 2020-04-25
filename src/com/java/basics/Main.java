@@ -1,6 +1,7 @@
 package com.java.basics;
 
 import arrays.ArrayOperations;
+import arrays.ForEachLoops;
 import arrays.MultidimensionalArrays;
 
 public class Main {
@@ -97,6 +98,11 @@ public class Main {
     
         //MultidimensionalArrays multidimensionalArrays = new MultidimensionalArrays();
         //multidimensionalArrays.soutMultidimensionalArray("ss",multidimensionalArrays.createMultidimensionalArrays());
+        ForEachLoops forEachLoops = new ForEachLoops();
+        forEachLoops.perform();
+        
+        
+        
         
     }
 }
