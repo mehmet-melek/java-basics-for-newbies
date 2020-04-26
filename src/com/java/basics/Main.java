@@ -1,8 +1,6 @@
 package com.java.basics;
 
-import arrays.ArrayOperations;
-import arrays.ForEachLoops;
-import arrays.MultidimensionalArrays;
+import arraylist.SampleArrayList;
 
 public class Main {
     
@@ -98,9 +96,15 @@ public class Main {
     
         //MultidimensionalArrays multidimensionalArrays = new MultidimensionalArrays();
         //multidimensionalArrays.soutMultidimensionalArray("ss",multidimensionalArrays.createMultidimensionalArrays());
-        ForEachLoops forEachLoops = new ForEachLoops();
-        forEachLoops.perform();
+        //ForEachLoops forEachLoops = new ForEachLoops();
+        //forEachLoops.perform();
         
+        
+        
+        //ArrayList
+        SampleArrayList sampleArrayList = new SampleArrayList();
+        //sampleArrayList.sizeAndIndex(sampleArrayList.addAndRemoveValue());
+        sampleArrayList.getValues(sampleArrayList.addAndRemoveValueThenReturnArrayList());
         
         
         
