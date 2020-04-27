@@ -1,4 +1,4 @@
-package arrays;
+package com.java.basics.arrays;
 
 public class ForEachLoops {
     

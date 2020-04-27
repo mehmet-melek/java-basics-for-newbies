@@ -1,7 +1,5 @@
 package com.java.basics;
 
-import arraylist.SampleArrayList;
-
 public class Main {
     
     public static void main(String[] args) {
@@ -102,11 +100,24 @@ public class Main {
         
         
         //ArrayList
-        SampleArrayList sampleArrayList = new SampleArrayList();
+        //SampleArrayList sampleArrayList = new SampleArrayList();
         //sampleArrayList.sizeAndIndex(sampleArrayList.addAndRemoveValue());
-        sampleArrayList.getValues(sampleArrayList.addAndRemoveValueThenReturnArrayList());
+        //sampleArrayList.getValues(sampleArrayList.addAndRemoveValueThenReturnArrayList());
+        //AutoboxingAndUnboxing autoboxingAndUnboxing = new AutoboxingAndUnboxing();
+        //autoboxingAndUnboxing.unboxing();
+    
+    
+        //String
+        /*StringOperations stringOperations = new StringOperations();
+        stringOperations.performOperations();*/
         
-        
-        
+        //LinkedList
+    
+        //LinkedListBasics linkedListBasics = new LinkedListBasics();
+        //linkedListBasics.showValuesWithForEachLoop(linkedListBasics.createLinkedList());
+        //linkedListBasics.showValuesWithListIterator(linkedListBasics.createLinkedList());
+        //linkedListBasics.addValueToLinkedList(linkedListBasics.createLinkedList(),"Red");
+    
+    
     }
 }

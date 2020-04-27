@@ -1,9 +1,8 @@
-package arraylist;
+package com.java.basics.arraylist;
 
 import java.util.ArrayList;
 
 public class SampleArrayList {
-    
     
     
     public ArrayList<String> addAndRemoveValueThenReturnArrayList() {
@@ -23,7 +22,7 @@ public class SampleArrayList {
         
     }
     
-
+    
     public void sizeAndIndex(ArrayList<String> arrayList) {
         
         addAndRemoveValueThenReturnArrayList();
@@ -40,8 +39,8 @@ public class SampleArrayList {
     public void getValues(ArrayList<String> arrayList) {
         
         addAndRemoveValueThenReturnArrayList();
-        for (int i = 0; i < arrayList.size(); i++) {
-            System.out.println(arrayList.get(i));
+        for (String vale : arrayList) {
+            System.out.println(vale);
         }
         
     }
