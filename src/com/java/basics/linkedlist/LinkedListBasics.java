@@ -56,7 +56,7 @@ public class LinkedListBasics {
             }
         }
         
-        if (!listIterator.hasNext()) {
+        if (!listIterator.hasNext() && listIterator.hasPrevious()) {
             listIterator.add(value);
         }
         showValuesWithForEachLoop(list);

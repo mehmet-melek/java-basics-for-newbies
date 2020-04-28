@@ -1,5 +1,6 @@
 package com.java.basics;
 
+
 public class Main {
     
     public static void main(String[] args) {
@@ -77,26 +78,25 @@ public class Main {
         Computer computer = new Computer(hardware,software);
         System.out.println(computer.getHardware().getCpu().getModel());
         computer.getSoftware().getOperatingSystem().upgradeOs(16);*/
-    
-    
+        
+        
         //Polymorphism
         /*Animal animal1 = new Dog("HotDog");
         Animal animal2 = new Cat("Cat");
         animal1.perform();
         animal2.perform();*/
-
+        
         
         //Arrays
         //ArrayOperations arrayOperations = new ArrayOperations();
         //arrayOperations.createArray();
         //arrayOperations.sortArray(arrayOperations.createArray());
         //arrayOperations.arrayEquals();
-    
+        
         //MultidimensionalArrays multidimensionalArrays = new MultidimensionalArrays();
         //multidimensionalArrays.soutMultidimensionalArray("ss",multidimensionalArrays.createMultidimensionalArrays());
         //ForEachLoops forEachLoops = new ForEachLoops();
         //forEachLoops.perform();
-        
         
         
         //ArrayList
@@ -105,19 +105,27 @@ public class Main {
         //sampleArrayList.getValues(sampleArrayList.addAndRemoveValueThenReturnArrayList());
         //AutoboxingAndUnboxing autoboxingAndUnboxing = new AutoboxingAndUnboxing();
         //autoboxingAndUnboxing.unboxing();
-    
-    
+        
+        
         //String
         /*StringOperations stringOperations = new StringOperations();
         stringOperations.performOperations();*/
         
         //LinkedList
-    
         //LinkedListBasics linkedListBasics = new LinkedListBasics();
         //linkedListBasics.showValuesWithForEachLoop(linkedListBasics.createLinkedList());
         //linkedListBasics.showValuesWithListIterator(linkedListBasics.createLinkedList());
         //linkedListBasics.addValueToLinkedList(linkedListBasics.createLinkedList(),"Red");
-    
-    
+        
+        
+        //Interface
+       /* UserServiceImplementation userServiceFromClass = new UserServiceImplementation();
+        System.out.println(userServiceFromClass.getNameById(0));
+        UserService userServiceFromInterface = new UserServiceImplementation();
+        System.out.println(userServiceFromInterface.getNameById(0));*/
+        
+        
+        //
+        
     }
 }
