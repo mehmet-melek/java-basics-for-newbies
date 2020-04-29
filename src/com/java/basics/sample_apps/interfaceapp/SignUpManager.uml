@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.java.basics.sample_apps.interfaceapp.SignUpManager</OriginalElement>
+  <nodes>
+    <node x="629.5" y="213.5">com.java.basics.sample_apps.interfaceapp.UserAgeCheckService</node>
+    <node x="86.0" y="190.5">com.java.basics.sample_apps.interfaceapp.SignUpManager</node>
+    <node x="392.5" y="453.5">com.java.basics.sample_apps.interfaceapp.UserCheckService</node>
+    <node x="402.5" y="113.5">com.java.basics.sample_apps.interfaceapp.User</node>
+    <node x="375.5" y="-26.5">com.java.basics.sample_apps.interfaceapp.UserComplexCheckService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.java.basics.sample_apps.interfaceapp.SignUpManager" target="com.java.basics.sample_apps.interfaceapp.UserCheckService">
+      <point x="-114.0" y="-0.0" />
+      <point x="40.0" y="240.0" />
+      <point x="40.0" y="470.0" />
+      <point x="-87.5" y="-10.0" />
+    </edge>
+    <edge source="com.java.basics.sample_apps.interfaceapp.UserAgeCheckService" target="com.java.basics.sample_apps.interfaceapp.User">
+      <point x="-90.5" y="-0.0" />
+      <point x="77.5" y="-0.0" />
+    </edge>
+    <edge source="com.java.basics.sample_apps.interfaceapp.UserComplexCheckService" target="com.java.basics.sample_apps.interfaceapp.UserCheckService">
+      <point x="-104.5" y="-0.0" />
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="480.0" />
+      <point x="-87.5" y="-0.0" />
+    </edge>
+    <edge source="com.java.basics.sample_apps.interfaceapp.UserComplexCheckService" target="com.java.basics.sample_apps.interfaceapp.User">
+      <point x="0.0" y="26.5" />
+      <point x="0.0" y="-126.5" />
+    </edge>
+    <edge source="com.java.basics.sample_apps.interfaceapp.UserAgeCheckService" target="com.java.basics.sample_apps.interfaceapp.UserCheckService">
+      <point x="0.0" y="26.5" />
+      <point x="720.0" y="480.0" />
+      <point x="87.5" y="-0.0" />
+    </edge>
+    <edge source="com.java.basics.sample_apps.interfaceapp.SignUpManager" target="com.java.basics.sample_apps.interfaceapp.User">
+      <point x="114.0" y="-0.0" />
+      <point x="-77.5" y="-0.0" />
+    </edge>
+    <edge source="com.java.basics.sample_apps.interfaceapp.UserCheckService" target="com.java.basics.sample_apps.interfaceapp.User">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="126.5" />
+    </edge>
+  </edges>
+  <settings layout="Directed Orthogonal" zoom="0.7000000000000001" x="515.1428571428581" y="301.33333333333337" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

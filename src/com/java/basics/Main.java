@@ -1,6 +1,13 @@
 package com.java.basics;
 
 
+import com.java.basics.oop.abstractclass.Circle;
+import com.java.basics.oop.abstractclass.Figure;
+import com.java.basics.oop.abstractclass.Square;
+import com.java.basics.sample_apps.interfaceapp.SignUpManager;
+import com.java.basics.sample_apps.interfaceapp.User;
+import com.java.basics.sample_apps.interfaceapp.UserComplexCheckService;
+
 public class Main {
     
     public static void main(String[] args) {
@@ -125,7 +132,23 @@ public class Main {
         System.out.println(userServiceFromInterface.getNameById(0));*/
         
         
-        //
+        //Sample Interface App
+        /*User user = new User(0,"Mikel",25);
+        SignUpManager signUpManager = new SignUpManager(new UserComplexCheckService());
+        signUpManager.signUp(user);*/
+        
+        
+        //Abstract Class
+        /*Square square = new Square("First square", 5);
+        square.calculateArea();
+        
+        Circle circle = new Circle("First Circle", 5);
+        circle.calculateArea();
+        circle.calculateCircumference();
+        
+        Figure sampleFigure = new Circle("Circe from figure",7);
+        sampleFigure.calculateArea();*/
+        
         
     }
 }

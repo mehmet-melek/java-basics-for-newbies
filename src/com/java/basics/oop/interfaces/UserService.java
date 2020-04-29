@@ -1,4 +1,4 @@
-package com.java.basics.interfaces;
+package com.java.basics.oop.interfaces;
 
 public interface UserService {
     

@@ -1,4 +1,4 @@
-package com.java.basics.String;
+package com.java.basics.string;
 
 public class StringOperations {
     
