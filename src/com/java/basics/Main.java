@@ -1,12 +1,8 @@
 package com.java.basics;
 
 
-import com.java.basics.oop.abstractclass.Circle;
-import com.java.basics.oop.abstractclass.Figure;
-import com.java.basics.oop.abstractclass.Square;
-import com.java.basics.sample_apps.interfaceapp.SignUpManager;
-import com.java.basics.sample_apps.interfaceapp.User;
-import com.java.basics.sample_apps.interfaceapp.UserComplexCheckService;
+import com.java.basics.oop.inner_class.LocalInnerClass;
+import com.java.basics.oop.inner_class.Math;
 
 public class Main {
     
@@ -16,6 +12,7 @@ public class Main {
         //Math Operators
         /*MathOperators       mathOperators       = new MathOperators();
         mathOperators.perform();*/
+        
         
         
         //Comparison Operators
@@ -118,6 +115,7 @@ public class Main {
         /*StringOperations stringOperations = new StringOperations();
         stringOperations.performOperations();*/
         
+        
         //LinkedList
         //LinkedListBasics linkedListBasics = new LinkedListBasics();
         //linkedListBasics.showValuesWithForEachLoop(linkedListBasics.createLinkedList());
@@ -149,6 +147,25 @@ public class Main {
         Figure sampleFigure = new Circle("Circe from figure",7);
         sampleFigure.calculateArea();*/
         
+        
+        
+        //InnerClass
+        /*Math.Factorial factorial = new Math().new Factorial();
+        factorial.factorial(3);
+        
+        Math.Circumference circumference = new Math().new Circumference();
+        circumference.circumference(13);
+        
+        Math.Quadrangular quadrangular = new Math.Quadrangular(); //Quadrangular class defined as static
+        quadrangular.calculateArea(2, 3);
+        
+        Math.Quadrangular.calculateSquareEdge(5);  // Quadrangular class and calculateSquareEdge method defined as static*/
+        
+        
+        
+        //LocalInnerClass
+        /*LocalInnerClass localInnerClass = new LocalInnerClass();
+        localInnerClass.figureMethod();*/
         
     }
 }
