@@ -5,9 +5,9 @@ public class ForEachLoops {
     public void perform() {
         int[] array = {455, 85, 4};
         
-        for (int value : array) {
+        for (int temp : array) {
             
-            System.out.println(value);
+            System.out.println(temp);
         }
     }
     

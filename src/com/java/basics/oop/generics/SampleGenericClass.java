@@ -2,17 +2,15 @@ package com.java.basics.oop.generics;
 
 import java.util.ArrayList;
 
-public class SampleGenericClass <E>{
+public class SampleGenericClass<E> {
 
 
-    public void sampleSoutMethod(ArrayList<E> array){
+    public void sampleSoutMethod(ArrayList<E> array) {
 
-        for (E value : array){
+        for (E temp : array) {
 
-            System.out.println(value);
+            System.out.println(temp);
         }
-
-
 
     }
 

@@ -1,5 +1,7 @@
 package com.java.basics.oop.generics;
 
+import java.util.logging.Logger;
+
 public class PerformGenericMethod {
 
 
@@ -29,8 +31,8 @@ public class PerformGenericMethod {
 
     public <E> void sampleGenericMethod(E[] array) {
 
-        for (E value : array) {
-            System.out.println(value);
+        for (E temp : array) {
+            System.out.println(temp);
         }
 
     }
