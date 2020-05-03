@@ -1,8 +1,8 @@
 package com.java.basics;
 
 
-import com.java.basics.oop.inner_class.LocalInnerClass;
-import com.java.basics.oop.inner_class.Math;
+import com.java.basics.oop.generics.PerformGenericClass;
+import com.java.basics.oop.generics.PerformGenericMethod;
 
 public class Main {
     
@@ -166,6 +166,37 @@ public class Main {
         //LocalInnerClass
         /*LocalInnerClass localInnerClass = new LocalInnerClass();
         localInnerClass.figureMethod();*/
-        
+
+
+        //Generic Class
+        /*PerformGenericClass performGenericClass = new PerformGenericClass();
+        performGenericClass.perform();*/
+
+
+        //Generic Methods
+        /*PerformGenericMethod performGenericMethod = new PerformGenericMethod();
+        performGenericMethod.sampleGenericMethod(performGenericMethod.getIntegers());
+        performGenericMethod.sampleGenericMethod(performGenericMethod.getString());*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
+
 }

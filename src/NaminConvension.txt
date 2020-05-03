@@ -1,7 +1,0 @@
-MyClass
-
-MyVariable / my_variable /myVariable_123
-
-someMethod / some_method
-
-$uperMethod / SUPER_METHOD
