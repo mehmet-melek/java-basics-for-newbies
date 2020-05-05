@@ -1,5 +1,7 @@
 package com.java.basics;
 
+import com.java.basics.collectionframework.ArrayListAndLinkedList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -180,6 +182,9 @@ public class Main {
        // DefaultClass defaultClass = new DefaultClass();
 
 
+        //Collection Framework
+        /*ArrayListAndLinkedList arrayListAndLinkedList = new ArrayListAndLinkedList();
+        arrayListAndLinkedList.perform();*/
 
 
 
