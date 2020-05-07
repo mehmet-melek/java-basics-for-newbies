@@ -1,6 +1,6 @@
 package com.java.basics;
 
-import com.java.basics.collectionframework.HashSet_LinkedHashSet_TreeSet;
+import com.java.basics.collectionframework.HashMap_LinkedHashMap_TreeMap;
 
 public class Main {
 
@@ -183,11 +183,20 @@ public class Main {
 
 
         //Collection Framework
+
         /*ArrayListAndLinkedList arrayListAndLinkedList = new ArrayListAndLinkedList();
         arrayListAndLinkedList.perform();*/
-        HashSet_LinkedHashSet_TreeSet hashSetLinkedHashSetTreeSet = new HashSet_LinkedHashSet_TreeSet();
+
+        //HashSet_LinkedHashSet_TreeSet hashSetLinkedHashSetTreeSet = new HashSet_LinkedHashSet_TreeSet();
         //hashSetLinkedHashSetTreeSet.differenceSet();
-        hashSetLinkedHashSetTreeSet.intersectionSet();
+        //hashSetLinkedHashSetTreeSet.intersectionSet();
+
+        HashMap_LinkedHashMap_TreeMap hashMapLinkedHashMapTreeMap = new HashMap_LinkedHashMap_TreeMap();
+        hashMapLinkedHashMapTreeMap.perform();
+
+
+
+
 
 
 
