@@ -1,5 +1,7 @@
 package com.java.basics;
 
+import com.java.basics.exception_handling.ThrowException;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -195,12 +197,10 @@ public class Main {
         //HashCodeAndEquals hashCodeAndEquals = new HashCodeAndEquals();
 
 
-
-
-
-
-
-
+        //Exception Handling
+        //TryCatch tryCatch = new TryCatch();
+        //FinallyBlocks finallyBlocks = new FinallyBlocks();
+        ThrowException throwException = new ThrowException();
 
 
 
