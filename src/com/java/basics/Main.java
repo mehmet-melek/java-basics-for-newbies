@@ -1,7 +1,5 @@
 package com.java.basics;
 
-import com.java.basics.collectionframework.HashMap_LinkedHashMap_TreeMap;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -191,8 +189,11 @@ public class Main {
         //hashSetLinkedHashSetTreeSet.differenceSet();
         //hashSetLinkedHashSetTreeSet.intersectionSet();
 
-        HashMap_LinkedHashMap_TreeMap hashMapLinkedHashMapTreeMap = new HashMap_LinkedHashMap_TreeMap();
-        hashMapLinkedHashMapTreeMap.perform();
+        //HashMap_LinkedHashMap_TreeMap hashMapLinkedHashMapTreeMap = new HashMap_LinkedHashMap_TreeMap();
+        //hashMapLinkedHashMapTreeMap.perform();
+
+        //HashCodeAndEquals hashCodeAndEquals = new HashCodeAndEquals();
+
 
 
 

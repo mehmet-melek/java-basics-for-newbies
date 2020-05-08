@@ -8,7 +8,7 @@ import java.util.*;
 
 public class HashMap_LinkedHashMap_TreeMap {
 
-    private HashMap<Integer, String>       hashMap       = new java.util.HashMap<Integer, String>();
+    private HashMap<Integer, String>       hashMap       = new HashMap<Integer, String>();
     private LinkedHashMap<Integer, String> linkedHashMap = new LinkedHashMap<Integer, String>();
     private TreeMap<Integer, String>       treeMap       = new TreeMap<Integer, String>();
 

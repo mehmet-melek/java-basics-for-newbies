@@ -1,15 +1,16 @@
 package com.java.basics.collectionframework;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 public class ArrayListAndLinkedList {
 
 
-    private LinkedList<Integer>          linkedList = new LinkedList<Integer>();
-    private java.util.ArrayList<Integer> arrayList  = new java.util.ArrayList<Integer>();
-    private Long                         start_time;
-    private Long                         finis_time;
+    private LinkedList<Integer> linkedList = new LinkedList<Integer>();
+    private ArrayList<Integer>  arrayList  = new ArrayList<Integer>();
+    private Long                start_time;
+    private Long                finis_time;
 
     public void perform() {
 

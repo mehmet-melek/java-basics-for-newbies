@@ -65,7 +65,7 @@ public class HashSet_LinkedHashSet_TreeSet {
 
     }
 
-    private Set<String> hash       = new java.util.HashSet<String>();
+    private Set<String> hash       = new HashSet<String>();
     private Set<String> linkedHash = new LinkedHashSet<String>();
     private Set<String> tree       = new TreeSet<String>();
     private Long        start_time;
